@@ -6,6 +6,9 @@ py := python
 run: manage.py
 	@${py} manage.py runserver
 
+run_insc:
+	@${py} manage.py runserver --insecure
+
 # Make migrations
 compile: manage.py
 	@${py} manage.py makemigrations master
