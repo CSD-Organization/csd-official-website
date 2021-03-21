@@ -9,4 +9,4 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),
     path('contact_req/', views.contact_request, name='contact_post'),
     path('subscribe_req/', views.subscribe_request, name='subscribe_post'),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]
