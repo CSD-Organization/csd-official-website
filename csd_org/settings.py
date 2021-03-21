@@ -30,8 +30,7 @@ SECRET_KEY = 'lc9e2bgo843$otl(f^^r&g#d&9+fb-@s$!!q@o8f2%sq-z&ay3'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '.localhost',
-    '127.0.0.1'
+    '*',
 ]
 
 # Application definition
